@@ -1,0 +1,36 @@
+{
+  "root" : "Flu_Functional",
+  "DEL_S" : ",",
+  "CDR3_S": "cdr3_aa",
+  "V_S" : "v_gene",
+  "F_S" : "copies",
+
+  "EPOCHS" : 1000,
+  "P_LOAD" : 1.0,
+  "ENCODING_DIM" : 30,
+  "N_PROJECTIONS" : 1000,
+  "N_FOR_DISTANCES" : 100,
+
+  "encoder_dir" : "encoder_projections",
+  "v_encoder_dir" : "v_encoder_projections",
+  "embedding_dir" : "embedding_projections",
+  "v_embedding_dir" : "v_embedding_projections",
+
+  "tsne_props_encoder" : "encoder_projections",
+
+  "RUN_AE" : false,
+  "RUN_V_AE" : true,
+  "RUN_EMB" : false,
+  "RUN_V_EMB" : false,
+
+  "RUN_AE_DEFAULT" : false,
+  "RUN_EMB_DEFAULT" : false,
+
+  "RUN_SAVE" : true,
+  "RUN_TSNE" : false,
+  "RUN_KDE" : false,
+  "RUN_PROPS" : false,
+  "RUN_KL" : false,
+  "RUN_ED" : false,
+  "RUN_MDS" : false
+}
